@@ -1,38 +1,10 @@
 
-import car_1_1 from './carros/car1/car1_1.jpeg'
-import car_1_2 from './carros/car1/car1_2.jpeg'
-import car_1_3 from './carros/car1/car1_3.jpeg'
-import car_1_4 from './carros/car1/car1_4.jpeg'
-
-
-import car_2_1 from './carros/car2/car2_1.jpeg'
-import car_2_2 from './carros/car2/car2_2.jpeg'
-import car_2_3 from './carros/car2/car2_3.jpeg'
-import car_2_4 from './carros/car2/car2_4.jpeg'
-
-
-import car_3_1 from './carros/car3/car3_1.jpeg'
-import car_3_2 from './carros/car3/car3_2.jpeg'
-import car_3_3 from './carros/car3/car3_3.jpeg'
-import car_3_4 from './carros/car3/car3_4.jpeg'
-
-
-import car_4_1 from './carros/car4/car4_1.jpeg'
-import car_4_2 from './carros/car4/car4_2.jpeg'
-import car_4_3 from './carros/car4/car4_3.jpeg'
-import car_4_4 from './carros/car4/car4_4.jpeg'
-
-
-import car_5_1 from './carros/car5/car5_1.jpeg'
-import car_5_2 from './carros/car5/car5_2.jpeg'
-import car_5_3 from './carros/car5/car5_3.jpeg'
-import car_5_4 from './carros/car5/car5_4.jpeg'
-
-
-import car_6_1 from './carros/car6/car6_1.jpeg'
-import car_6_2 from './carros/car6/car6_2.jpeg'
-import car_6_3 from './carros/car6/car6_3.jpeg'
-import car_6_4 from './carros/car6/car6_4.jpeg'
+import car1 from './carros/img1.jpg'
+import car2 from './carros/img2.jpg'
+import car3 from './carros/img3.webp'
+import car4 from './carros/img4.jpeg'
+import car5 from './carros/img5.jpeg'
+import car6 from './carros/img6.jpg'
 
 //Pra colocar um carro como vendido, precisa colocar "sold:true"
 
@@ -52,7 +24,7 @@ const catalogue = [
       price:'R$210.900,00',
       year:'2012',
       imgs:[
-        car_1_1, car_1_2, car_1_3, car_1_4,
+        car1, car2, car3, car4,
       ],
       sold:false
     },
@@ -72,7 +44,7 @@ const catalogue = [
       price:'R$210.900,00',
       year:'2018',
       imgs:[
-        car_2_1, car_2_2, car_2_3, car_2_4,
+        car2, car3, car4, car5,
       ]
     },
 
@@ -84,7 +56,7 @@ const catalogue = [
       price:'R$210.900,00',
       year:'2013',
       imgs:[
-        car_3_1, car_3_2, car_3_3, car_3_4,
+        car6, car1, car2, car3,
       ]
     },
 
@@ -96,7 +68,7 @@ const catalogue = [
       price:'R$210.900,00',
       year:'2012',
       imgs:[
-        car_4_1, car_4_2, car_4_3, car_4_4,
+       car3, car1, car2, car4,
       ]
     },
 
@@ -108,7 +80,7 @@ const catalogue = [
       price:'R$210.900,00',
       year:'2015',
       imgs:[
-        car_5_1, car_5_2, car_5_3, car_5_4,
+        car5, car1, car4, car6,
       ]
     },
 
@@ -120,7 +92,7 @@ const catalogue = [
       price:'R$210.900,00',
       year:'2013',
       imgs:[
-        car_6_1, car_6_2, car_6_3, car_6_4,
+        car4, car6, car3, car2,
       ],
       sold:true,
     },
